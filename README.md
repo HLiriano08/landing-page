@@ -1,1 +1,1 @@
-# landing-page
+In this project I will be creating a web page following a design from TheOdinProject
