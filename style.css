@@ -16,8 +16,11 @@
 }
 
 .body3 {
-    height: 400px;
+    height: 300px;
     width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer {
@@ -97,8 +100,10 @@ button {
     background-color: #3882f6;
     color: white;
     font-weight: bold;
-    border-radius: 10px;
-    border: groove white 
+    border: none;
+    border-radius: 5px;
+    width: 88px;
+    height: 28px;
 }
 
 /* Start body1 css */
@@ -150,3 +155,34 @@ button {
 
 /* Start body3 css */
 
+.body3flex {
+    display: flex;
+    flex-flow: row wrap;
+    color: white;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    height: 150px;
+    width: 1000px;
+    border-radius: 5px;
+}
+
+.textflex {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.infosub {
+    font-size: 18px;
+}
+
+.body3-button {
+    border: solid white;
+    border-radius: 5px;
+}
