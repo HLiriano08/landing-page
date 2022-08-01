@@ -20,6 +20,16 @@
     width: auto;
 }
 
+.footer {
+    background-color: #1f2937;
+    height: 60px;
+    width: auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .header-logo {
     font-size: 24px;
     color:#e5e7eb;
@@ -83,10 +93,6 @@ a {
     align-content: center;
 }
 
-.body3 {
-    background-color: #3882f6;
-}
-
 button {
     background-color: #3882f6;
     color: white;
@@ -141,3 +147,6 @@ button {
     font-weight: lighter;
     color: #1f2937;
 }
+
+/* Start body3 css */
+
